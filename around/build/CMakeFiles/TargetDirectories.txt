@@ -1,0 +1,8 @@
+/home/danikch/work/geant4/proj/protons/around/build/CMakeFiles/install/strip.dir
+/home/danikch/work/geant4/proj/protons/around/build/CMakeFiles/install/local.dir
+/home/danikch/work/geant4/proj/protons/around/build/CMakeFiles/ex1.dir
+/home/danikch/work/geant4/proj/protons/around/build/CMakeFiles/example2.dir
+/home/danikch/work/geant4/proj/protons/around/build/CMakeFiles/edit_cache.dir
+/home/danikch/work/geant4/proj/protons/around/build/CMakeFiles/rebuild_cache.dir
+/home/danikch/work/geant4/proj/protons/around/build/CMakeFiles/list_install_components.dir
+/home/danikch/work/geant4/proj/protons/around/build/CMakeFiles/install.dir

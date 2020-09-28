@@ -1,0 +1,181 @@
+0 event 0
+
+1.38481 event 1
+
+collected energy    3.22185 from particle     proton with energy    11.4283 caused by process                DUMMY parent 0 track 1 step 6 event 3  3 3
+collected energy    5.09874 from particle     proton with energy    9.42818 caused by process                DUMMY parent 0 track 1 step 7 event 3  3 3
+collected energy    7.09072 from particle     proton with energy    7.55204 caused by process                DUMMY parent 0 track 1 step 8 event 3  3 3
+collected energy    9.09728 from particle     proton with energy     5.5815 caused by process                DUMMY parent 0 track 1 step 9 event 3  3 3
+collected energy    11.0781 from particle     proton with energy    3.61512 caused by process                DUMMY parent 0 track 1 step 10 event 3  3 3
+collected energy     12.544 from particle     proton with energy    1.38787 caused by process                DUMMY parent 0 track 1 step 11 event 3  3 3
+collected energy    12.6803 from particle     proton with energy  0.0973692 caused by process                DUMMY parent 0 track 1 step 12 event 3  3 3
+collected energy    12.7136 from particle     proton with energy  0.0653694 caused by process                DUMMY parent 0 track 1 step 13 event 3  3 3
+12.5822 event 3
+
+1.21842 event 4
+
+collected energy    3.14411 from particle     proton with energy    10.4693 caused by process                DUMMY parent 0 track 1 step 6 event 13  13 13
+collected energy    5.11952 from particle     proton with energy    8.47681 caused by process                DUMMY parent 0 track 1 step 7 event 13  13 13
+collected energy    7.22228 from particle     proton with energy      6.475 caused by process                DUMMY parent 0 track 1 step 8 event 13  13 13
+collected energy    9.24469 from particle     proton with energy     4.5031 caused by process                DUMMY parent 0 track 1 step 9 event 13  13 13
+collected energy    11.8038 from particle     proton with energy     2.4586 caused by process                DUMMY parent 0 track 1 step 10 event 13  13 13
+collected energy    11.5964 from particle     proton with energy  0.0396867 caused by process                DUMMY parent 0 track 1 step 11 event 13  13 13
+collected energy     11.671 from particle     proton with energy  0.0163758 caused by process                DUMMY parent 0 track 1 step 12 event 13  13 13
+collected energy    11.8034 from particle     proton with energy  0.0024033 caused by process                DUMMY parent 0 track 1 step 13 event 13  13 13
+11.2585 event 13
+
+collected energy    1.10913 from particle     proton with energy    12.4382 caused by process                DUMMY parent 0 track 1 step 5 event 14  14 14
+collected energy    3.33368 from particle     proton with energy    10.2601 caused by process                DUMMY parent 0 track 1 step 6 event 14  14 14
+collected energy    5.12638 from particle     proton with energy    8.16791 caused by process                DUMMY parent 0 track 1 step 7 event 14  14 14
+collected energy    7.52307 from particle     proton with energy    6.19336 caused by process                DUMMY parent 0 track 1 step 8 event 14  14 14
+collected energy    9.45706 from particle     proton with energy    4.18097 caused by process                DUMMY parent 0 track 1 step 9 event 14  14 14
+collected energy    11.4175 from particle     proton with energy    2.01009 caused by process                DUMMY parent 0 track 1 step 10 event 14  14 14
+collected energy    11.7593 from particle     proton with energy  0.0381475 caused by process                DUMMY parent 0 track 1 step 11 event 14  14 14
+collected energy    11.4633 from particle     proton with energy  0.0204837 caused by process                DUMMY parent 0 track 1 step 12 event 14  14 14
+11.4713 event 14
+
+1.14487 event 15
+
+collected energy    3.05286 from particle     proton with energy    10.1381 caused by process                DUMMY parent 0 track 1 step 6 event 20  20 20
+collected energy    5.04783 from particle     proton with energy    8.15447 caused by process                DUMMY parent 0 track 1 step 7 event 20  20 20
+collected energy    5.39276 from particle     proton with energy    6.24803 caused by process                DUMMY parent 0 track 1 step 8 event 20  20 20
+collected energy    6.98775 from particle     proton with energy     5.2371 caused by process                DUMMY parent 0 track 1 step 9 event 20  20 20
+collected energy    9.60308 from particle     proton with energy    3.24265 caused by process                DUMMY parent 0 track 1 step 10 event 20  20 20
+collected energy    10.3229 from particle     proton with energy   0.891499 caused by process                DUMMY parent 0 track 1 step 11 event 20  20 20
+collected energy    11.2515 from particle        C12 with energy   0.821938 caused by process           hadElastic parent 1 track 2 step 1 event 20  20 20
+11.0249 event 20
+
+collected energy    1.21975 from particle     proton with energy    12.3527 caused by process                DUMMY parent 0 track 1 step 5 event 21  21 21
+collected energy    3.50289 from particle     proton with energy    10.1216 caused by process                DUMMY parent 0 track 1 step 6 event 21  21 21
+collected energy    5.25806 from particle     proton with energy    8.06883 caused by process                DUMMY parent 0 track 1 step 7 event 21  21 21
+collected energy    6.95153 from particle     proton with energy    6.16578 caused by process                DUMMY parent 0 track 1 step 8 event 21  21 21
+collected energy    9.22155 from particle     proton with energy    4.20354 caused by process                DUMMY parent 0 track 1 step 9 event 21  21 21
+collected energy    11.4931 from particle     proton with energy    2.07907 caused by process                DUMMY parent 0 track 1 step 10 event 21  21 21
+11.4654 event 21
+
+1.26779 event 22
+
+collected energy     3.2529 from particle     proton with energy    11.4964 caused by process                DUMMY parent 0 track 1 step 6 event 27  27 27
+collected energy    5.29148 from particle     proton with energy    9.37412 caused by process                DUMMY parent 0 track 1 step 7 event 27  27 27
+collected energy    7.56276 from particle     proton with energy    7.38376 caused by process                DUMMY parent 0 track 1 step 8 event 27  27 27
+collected energy    9.25997 from particle     proton with energy    5.51922 caused by process                DUMMY parent 0 track 1 step 9 event 27  27 27
+collected energy     11.542 from particle     proton with energy    3.56318 caused by process                DUMMY parent 0 track 1 step 10 event 27  27 27
+collected energy    12.7442 from particle     proton with energy     1.2643 caused by process                DUMMY parent 0 track 1 step 11 event 27  27 27
+12.7276 event 27
+
+1.4436 event 28
+
+collected energy    3.34454 from particle     proton with energy    11.2698 caused by process                DUMMY parent 0 track 1 step 6 event 35  35 35
+collected energy     5.1991 from particle     proton with energy    9.14776 caused by process                DUMMY parent 0 track 1 step 7 event 35  35 35
+collected energy    7.42687 from particle     proton with energy    7.22233 caused by process                DUMMY parent 0 track 1 step 8 event 35  35 35
+collected energy    9.72114 from particle     proton with energy    5.25852 caused by process                DUMMY parent 0 track 1 step 9 event 35  35 35
+collected energy     11.846 from particle     proton with energy    3.22978 caused by process                DUMMY parent 0 track 1 step 10 event 35  35 35
+collected energy    12.2024 from particle     proton with energy   0.897586 caused by process                DUMMY parent 0 track 1 step 11 event 35  35 35
+12.5613 event 35
+
+1.34563 event 36
+
+collected energy    3.25654 from particle     proton with energy    11.4414 caused by process                DUMMY parent 0 track 1 step 6 event 40  40 40
+collected energy    5.55193 from particle     proton with energy    9.35026 caused by process                DUMMY parent 0 track 1 step 7 event 40  40 40
+collected energy    7.39246 from particle     proton with energy    7.31879 caused by process                DUMMY parent 0 track 1 step 8 event 40  40 40
+collected energy    9.13036 from particle     proton with energy    5.43597 caused by process                DUMMY parent 0 track 1 step 9 event 40  40 40
+collected energy    11.7466 from particle     proton with energy    3.41863 caused by process                DUMMY parent 0 track 1 step 10 event 40  40 40
+collected energy    12.7716 from particle     proton with energy    1.08168 caused by process                DUMMY parent 0 track 1 step 11 event 40  40 40
+12.7049 event 40
+
+1.05441 event 41
+
+collected energy    3.01116 from particle     proton with energy    11.2725 caused by process                DUMMY parent 0 track 1 step 6 event 46  46 46
+collected energy    5.19826 from particle     proton with energy    9.29743 caused by process                DUMMY parent 0 track 1 step 7 event 46  46 46
+collected energy    6.97612 from particle     proton with energy    7.31621 caused by process                DUMMY parent 0 track 1 step 8 event 46  46 46
+collected energy    8.84804 from particle     proton with energy    5.41071 caused by process                DUMMY parent 0 track 1 step 9 event 46  46 46
+collected energy    11.3189 from particle     proton with energy     3.4458 caused by process                DUMMY parent 0 track 1 step 10 event 46  46 46
+collected energy    12.1033 from particle     proton with energy    1.16838 caused by process                DUMMY parent 0 track 1 step 11 event 46  46 46
+collected energy    12.3245 from particle     proton with energy   0.125465 caused by process                DUMMY parent 0 track 1 step 12 event 46  46 46
+12.3253 event 46
+
+1.17463 event 47
+
+collected energy    3.27266 from particle     proton with energy    11.4325 caused by process                DUMMY parent 0 track 1 step 6 event 55  55 55
+collected energy    5.39699 from particle     proton with energy    9.33498 caused by process                DUMMY parent 0 track 1 step 7 event 55  55 55
+collected energy    7.22742 from particle     proton with energy    7.30707 caused by process                DUMMY parent 0 track 1 step 8 event 55  55 55
+collected energy    9.23289 from particle     proton with energy    5.36919 caused by process                DUMMY parent 0 track 1 step 9 event 55  55 55
+collected energy    11.6048 from particle     proton with energy    3.38581 caused by process                DUMMY parent 0 track 1 step 10 event 55  55 55
+collected energy    12.6883 from particle     proton with energy     1.1202 caused by process                DUMMY parent 0 track 1 step 11 event 55  55 55
+collected energy    12.4624 from particle     proton with energy  0.0533174 caused by process                DUMMY parent 0 track 1 step 12 event 55  55 55
+12.547 event 55
+
+1.23621 event 56
+
+collected energy    3.31408 from particle     proton with energy    11.5848 caused by process                DUMMY parent 0 track 1 step 6 event 68  68 68
+collected energy    5.21696 from particle     proton with energy    9.41232 caused by process                DUMMY parent 0 track 1 step 7 event 68  68 68
+collected energy    7.09906 from particle     proton with energy    7.46406 caused by process                DUMMY parent 0 track 1 step 8 event 68  68 68
+collected energy    9.38549 from particle     proton with energy    5.44462 caused by process                DUMMY parent 0 track 1 step 9 event 68  68 68
+collected energy    11.4739 from particle     proton with energy      3.474 caused by process                DUMMY parent 0 track 1 step 10 event 68  68 68
+collected energy    12.6879 from particle     proton with energy     1.2324 caused by process                DUMMY parent 0 track 1 step 11 event 68  68 68
+collected energy    12.9224 from particle     proton with energy   0.014001 caused by process                DUMMY parent 0 track 1 step 12 event 68  68 68
+collected energy    12.4756 from particle     proton with energy 0.00994822 caused by process                DUMMY parent 0 track 1 step 13 event 68  68 68
+collected energy    12.6175 from particle     proton with energy 0.00901657 caused by process                DUMMY parent 0 track 1 step 14 event 68  68 68
+12.8248 event 68
+
+1.35072 event 69
+
+collected energy    3.50497 from particle     proton with energy    11.5492 caused by process                DUMMY parent 0 track 1 step 6 event 75  75 75
+collected energy    5.30498 from particle     proton with energy    9.43915 caused by process                DUMMY parent 0 track 1 step 7 event 75  75 75
+collected energy     7.4622 from particle     proton with energy    7.40846 caused by process                DUMMY parent 0 track 1 step 8 event 75  75 75
+collected energy    9.24026 from particle     proton with energy    5.51377 caused by process                DUMMY parent 0 track 1 step 9 event 75  75 75
+collected energy    11.6842 from particle     proton with energy    3.54215 caused by process                DUMMY parent 0 track 1 step 10 event 75  75 75
+collected energy    12.8509 from particle     proton with energy    1.26831 caused by process                DUMMY parent 0 track 1 step 11 event 75  75 75
+collected energy    13.1196 from particle     proton with energy  0.0855177 caused by process                DUMMY parent 0 track 1 step 12 event 75  75 75
+12.7885 event 75
+
+1.13732 event 76
+
+collected energy     3.4022 from particle     proton with energy    10.7716 caused by process                DUMMY parent 0 track 1 step 6 event 79  79 79
+collected energy    5.20476 from particle     proton with energy    8.66794 caused by process                DUMMY parent 0 track 1 step 7 event 79  79 79
+collected energy    6.88325 from particle     proton with energy    6.82832 caused by process                DUMMY parent 0 track 1 step 8 event 79  79 79
+collected energy    8.88978 from particle     proton with energy    4.88055 caused by process                DUMMY parent 0 track 1 step 9 event 79  79 79
+collected energy    11.5272 from particle     proton with energy    2.83132 caused by process                DUMMY parent 0 track 1 step 10 event 79  79 79
+collected energy     11.674 from particle     proton with energy   0.365875 caused by process                DUMMY parent 0 track 1 step 11 event 79  79 79
+collected energy    11.6711 from particle     proton with energy   0.026304 caused by process                DUMMY parent 0 track 1 step 12 event 79  79 79
+11.9824 event 79
+
+collected energy    1.08569 from particle     proton with energy    13.7483 caused by process                DUMMY parent 0 track 1 step 5 event 80  80 80
+collected energy    3.35337 from particle     proton with energy    11.5226 caused by process                DUMMY parent 0 track 1 step 6 event 80  80 80
+collected energy    5.42135 from particle     proton with energy     9.3954 caused by process                DUMMY parent 0 track 1 step 7 event 80  80 80
+collected energy    7.08508 from particle     proton with energy    7.44741 caused by process                DUMMY parent 0 track 1 step 8 event 80  80 80
+collected energy     9.0666 from particle     proton with energy    5.56183 caused by process                DUMMY parent 0 track 1 step 9 event 80  80 80
+collected energy    11.3523 from particle     proton with energy    3.53716 caused by process                DUMMY parent 0 track 1 step 10 event 80  80 80
+collected energy    12.6451 from particle     proton with energy    1.21102 caused by process                DUMMY parent 0 track 1 step 11 event 80  80 80
+12.4988 event 80
+
+1.29245 event 81
+
+collected energy     3.2633 from particle     proton with energy    10.7573 caused by process                DUMMY parent 0 track 1 step 6 event 82  82 82
+collected energy    5.09513 from particle     proton with energy    8.63484 caused by process                DUMMY parent 0 track 1 step 7 event 82  82 82
+collected energy    7.03669 from particle     proton with energy     6.7013 caused by process                DUMMY parent 0 track 1 step 8 event 82  82 82
+collected energy     9.2594 from particle     proton with energy    4.72857 caused by process                DUMMY parent 0 track 1 step 9 event 82  82 82
+collected energy    11.5973 from particle     proton with energy    2.69524 caused by process                DUMMY parent 0 track 1 step 10 event 82  82 82
+collected energy    11.7463 from particle     proton with energy   0.190352 caused by process                DUMMY parent 0 track 1 step 11 event 82  82 82
+collected energy     12.069 from particle     proton with energy  0.0130175 caused by process                DUMMY parent 0 track 1 step 12 event 82  82 82
+12.0498 event 82
+
+1.20652 event 83
+
+collected energy     3.2302 from particle     proton with energy    11.5927 caused by process                DUMMY parent 0 track 1 step 6 event 92  92 92
+collected energy    5.20058 from particle     proton with energy    9.45294 caused by process                DUMMY parent 0 track 1 step 7 event 92  92 92
+collected energy    7.24978 from particle     proton with energy    7.46929 caused by process                DUMMY parent 0 track 1 step 8 event 92  92 92
+collected energy    9.13698 from particle     proton with energy    5.56741 caused by process                DUMMY parent 0 track 1 step 9 event 92  92 92
+collected energy    11.7635 from particle     proton with energy    3.50823 caused by process                DUMMY parent 0 track 1 step 10 event 92  92 92
+collected energy    12.7956 from particle     proton with energy    1.20253 caused by process                DUMMY parent 0 track 1 step 11 event 92  92 92
+13.1287 event 92
+
+1.20612 event 93
+
+collected energy    3.50773 from particle     proton with energy    10.6715 caused by process                DUMMY parent 0 track 1 step 6 event 95  95 95
+collected energy    5.42931 from particle     proton with energy    8.50336 caused by process                DUMMY parent 0 track 1 step 7 event 95  95 95
+collected energy    7.32482 from particle     proton with energy      6.601 caused by process                DUMMY parent 0 track 1 step 8 event 95  95 95
+collected energy    9.27252 from particle     proton with energy    4.69981 caused by process                DUMMY parent 0 track 1 step 9 event 95  95 95
+collected energy    11.8499 from particle     proton with energy    2.65255 caused by process                DUMMY parent 0 track 1 step 10 event 95  95 95
+collected energy    12.1572 from particle     proton with energy   0.176517 caused by process                DUMMY parent 0 track 1 step 11 event 95  95 95
+collected energy    12.1104 from particle     proton with energy   0.043782 caused by process                DUMMY parent 0 track 1 step 12 event 95  95 95

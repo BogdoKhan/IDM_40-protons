@@ -1,0 +1,39 @@
+ //112
+    G4Box* SolidLayer 
+    = new G4Box("Layer",           // its name
+                 0.5*det_sizeX, 0.25*det_sizeY, 0.5*det_sizeZ); //its size
+                         
+     G4LogicalVolume* LogicLayer 
+        = new G4LogicalVolume(
+                 SolidLayer,           // its solid
+                 det_mat,  // its material
+                 "Layer");         // its name
+
+    new G4PVReplica(
+                 "Layer",          // its name
+                LogicLayer,          // its logical volume
+                 logicDet,          // its mother
+                 kYAxis,           // axis of replication
+                 fNofLayers,        // number of replica
+                 0.5*det_sizeY);  // witdth of replica
+    
+    //113
+    G4Box* SolidLayer1 
+    = new G4Box("Layer1",           // its name
+                 0.25*det_sizeX, 0.25*det_sizeY, 0.5*det_sizeZ); //its size
+                         
+     G4LogicalVolume* LogicLayer1 
+        = new G4LogicalVolume(
+                 SolidLayer1,           // its solid
+                 det_mat,  // its material
+                 "Layer");         // its name
+
+    new G4PVReplica(
+                 "Layer1",          // its name
+                LogicLayer1,          // its logical volume
+                 LogicLayer,          // its mother
+                 kXAxis,           // axis of replication
+                 fNofLayers,        // number of replica
+                 0.5*det_sizeX);  // witdth of replica
+    
+ 
