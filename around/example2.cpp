@@ -40,13 +40,13 @@ visManager->Initialize();
 G4UImanager* UImanager = G4UImanager::GetUIpointer();
 // Проверяем или были переданы через командную сроку параметры
 if ( argc == 1 ) {//Если через командную строку ничего не передавалось
-// То устанавливаем  интерактивный режим
-// Если используется визуализация
-G4UIExecutive* ui = new G4UIExecutive(argc, argv);//Создание интерфейса пользователя
-UImanager->ApplyCommand("/control/execute vis.mac");//Отрисовываем по заранее подготовленному
-// файлу vis.mac
-ui->SessionStart();//Запуск интерфейса пользователя
-delete ui;//Удаление интерфейса пользователя
+	// То устанавливаем  интерактивный режим
+	// Если используется визуализация
+	G4UIExecutive* ui = new G4UIExecutive(argc, argv);//Создание интерфейса пользователя
+	UImanager->ApplyCommand("/control/execute vis.mac");//Отрисовываем по заранее подготовленному
+	// файлу vis.mac
+	ui->SessionStart();//Запуск интерфейса пользователя
+	delete ui;
 }
 else {
 // Если были переданы параметры, по включаем пакетный режим

@@ -1,5 +1,9 @@
 #include<fstream>
 #include<iostream>
+#include <sys/stat.h>
+
+
+
 #include "ExG4PrimaryGeneratorAction02.hh"
 // Подключаем необходимы заголовочные файлы
 #include "G4LogicalVolumeStore.hh"
@@ -26,6 +30,17 @@ ExG4PrimaryGeneratorAction02::ExG4PrimaryGeneratorAction02()
 	fEnvelopeBox(0)
 {
   fGeneralParticleSource  = new G4GeneralParticleSource();
+		
+	//Check if testdata folder exists and if not, create it
+	const char* testfolder;
+	testfolder = "../testdata";
+	struct stat sb;
+
+	if (stat(testfolder, &sb) == 0 && S_ISDIR(sb.st_mode)) {
+	//printf("YES\n");
+	} else {
+	mkdir(testfolder, 0755);
+	}
 }
 
 
@@ -70,13 +85,13 @@ void ExG4PrimaryGeneratorAction02::GeneratePrimaries(G4Event* anEvent)
   // Объявляем переменные положения пушки части
   G4double x0 = 0;
   G4double y0 = 0;
-  G4double z0 = 10.*cm;
+  G4double z0 = -1.2*um;
   // Устанавливаем положение
   fGeneralParticleSource->SetParticlePosition(G4ThreeVector(x0,y0,z0));
   // Генерируем первичное событие
 	fGeneralParticleSource->GeneratePrimaryVertex(anEvent);
 	numb += 1;
-	std::ofstream filea1("number.dat", std::ios::trunc);
+	std::ofstream filea1("../testdata/number.dat", std::ios::trunc);
     	filea1 << std::setw(15) << numb << std::endl;
 	filea1.close();
 }

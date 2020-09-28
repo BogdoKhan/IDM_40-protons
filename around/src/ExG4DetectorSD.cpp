@@ -56,7 +56,7 @@ double sigen (double engot) {
 void sp1(const double& endep) {
 	//double endp1 = sigen(endep);
 	if (endep != 0) {
-		ofstream fileen ("energyloss.dat", ios::app);
+		ofstream fileen ("../testdata/energyloss.dat", ios::app);
 		fileen << endep << '\n';
 		fileen.close();
 	}
@@ -69,7 +69,7 @@ template <typename TEnr, typename TStr, typename TInt1, typename TInt2, typename
 void Tracker(TEnr endep, TStr p1, TInt1 PID, TInt2 TID, TInt3 step, TNum pre0, TNum numbr, TNum post0, TName part, TEnr1 kinetic){
 	double endp1 = sigen(endep);
 	//if (endp1 != 0) {
-		ofstream filex3 ("test.dat", ios::app);
+		ofstream filex3 ("../testdata/test.dat", ios::app);
 		if (/*static_cast<string>(p1) != "DUMMY" &&*/ pre0 == numbr){
 		filex3 << "collected energy " << setw(10) << endp1 << " from particle "
 		<< setw(10)<< part << " with energy " << setw(10) << kinetic << " caused by process " 
@@ -135,12 +135,23 @@ ExG4DetectorSD::ExG4DetectorSD(
 	HIST_MAX(20.*MeV),
 	HIST_MIN(0.*MeV)
 {
+		//Check if testdata folder exists and if not, create it
+		const char* testfolder;
+		testfolder = "../testdata";
+		struct stat sb;
+
+		if (stat(testfolder, &sb) == 0 && S_ISDIR(sb.st_mode)) {
+		//printf("YES\n");
+		} else {
+		mkdir(testfolder, 0755);
+		}
+		
 		collectionName.insert(hitsCollectionName);
-	   	ofstream file1("testdet.dat", std::ios::trunc);
+	   	ofstream file1("../testdata/testdet.dat", std::ios::trunc);
     	file1.close();
-		ofstream filex2("energyloss.dat", std::ios::trunc);
+		ofstream filex2("../testdata/energyloss.dat", std::ios::trunc);
     	filex2.close();
-		ofstream filex3("test.dat", std::ios::trunc);
+		ofstream filex3("../testdata/test.dat", std::ios::trunc);
     	filex3.close();
 		/*ofstream filex3("test.dat", std::ios::trunc);
     	filex2.close();*/
@@ -207,6 +218,7 @@ G4bool ExG4DetectorSD::ProcessHits(G4Step* step,
 		}
 	}*/
 	*pname = partname; // particle name
+	
   return true;
 }
 
@@ -214,7 +226,6 @@ G4bool ExG4DetectorSD::ProcessHits(G4Step* step,
 
 void ExG4DetectorSD::EndOfEvent(G4HCofThisEvent*)
 {
- 
 }
 
 // In destructor the info from spectrum file writes into the histograms
@@ -223,7 +234,7 @@ ExG4DetectorSD::~ExG4DetectorSD()
 { 
 	string line;
 	ifstream fileend;
-	fileend.open("energyloss.dat");
+	fileend.open("../testdata/energyloss.dat");
 	double bin_width = (HIST_MAX - HIST_MIN) / NOBINS;
 	if (fileend.is_open()) {
 		while(getline(fileend, line)) {
@@ -237,15 +248,15 @@ ExG4DetectorSD::~ExG4DetectorSD()
 	}
 	
 	//Check if spectra folder exists and if not, create it
-	const char* folder;
-    folder = "../spectra";
-    struct stat sb;
+		const char* folder;
+		folder = "../spectra";
+		struct stat sb;
 
-    if (stat(folder, &sb) == 0 && S_ISDIR(sb.st_mode)) {
-        //printf("YES\n");
-    } else {
+		if (stat(folder, &sb) == 0 && S_ISDIR(sb.st_mode)) {
+		//printf("YES\n");
+		} else {
 		mkdir(folder, 0755);
-    }
+		}
 	
 	//Create a spectrum file with following specific data: particle and number of primaries
 	stringstream ss;
